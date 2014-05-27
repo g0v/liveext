@@ -8,9 +8,9 @@
     <div class="card" ng-repeat="channel in channels">
 
       <div class="item item-avatar">
-        <img src="{{channel.thumb}}">
+        <img src="{{channel.logo}}">
         <h2>{{channel.title}}</h2>
-        <p>{{channel.vid}}</p>
+        <p>{{channel.cid}}</p>
       </div>
 
       <a class="item item-icon-left assertive" ng-click="open('{{channel.url}}')">

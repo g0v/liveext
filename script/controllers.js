@@ -29,7 +29,7 @@ angular.module('starter.controllers', [])
   });
   $http({
     method: 'GET',
-    url: './channel.json',
+    url: 'https://livelink.firebaseio.com/channel/.json',
     cache: false
   }).
     success(function(data, status, headers, config) {
