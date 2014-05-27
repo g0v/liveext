@@ -29,7 +29,7 @@ angular.module('starter.controllers', [])
   });
   $http({
     method: 'GET',
-    url: 'https://g0v.github.io/liveext/channel.json',
+    url: '../channel.json',
     cache: false
   }).
     success(function(data, status, headers, config) {
