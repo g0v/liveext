@@ -29,7 +29,7 @@ angular.module('starter.controllers', [])
   });
   $http({
     method: 'GET',
-    url: '../channel.json',
+    url: './channel.json',
     cache: false
   }).
     success(function(data, status, headers, config) {
